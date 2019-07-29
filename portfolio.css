@@ -1,0 +1,95 @@
+header, footer, 
+article, section,
+nav, figure, div, 
+table{
+    display: block;
+}
+
+article.line{
+    background-color: crimson;
+    border-bottom-color: cadetblue;
+    margin: 1.3em 0;
+}
+
+footer.line{
+    margin: 2em 0;
+}
+
+nav{
+    background: url(img/gradient_light.jpg) repeat-x 50% 50% lightgray;
+    padding: 0 5px;
+    position: absolute;
+    right: 0;
+    top: 4em;
+
+    border: 1px;
+
+
+   box-shadow:  0 1px 1px lightgrey;
+   -webkit-box-shadow: 0 1px 1px lightgrey;
+   -moz-box-shadow: 0 1px 1px lightgrey;
+
+}
+
+
+nav ul  li{
+display: inline;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+nav ul li a
+nav ul li a :visited{
+
+  color: lightgray;
+  display: block;
+  float: left;
+  font-size: 1.25em;
+  font-weight: bold;
+  margin: 5px 2px;
+  padding: 7px 10px 4px;
+  text-shadow:  0 1px 1px white;
+  text-transform: uppercase;  
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 6px;
+	margin-bottom: 15px;
+	display: inline-block;
+}
+    nav ul li a:hover{
+        text-decoration:none;
+        background-color:#f0f0f0;
+    } 
+   
+
+
+nav, article, nav ul li a, figure{
+    border-radius:  10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+
+}
+table {
+    border: 3px sloid black;
+   }
+
+   @media (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+}
+@media screen and (min-width: 786px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+  
+  @media screen and (min-width: 1000px) {
+    body {
+      background-color: lavender;
+    }
+  }
+
+
