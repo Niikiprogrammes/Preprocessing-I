@@ -20,7 +20,18 @@ article.line{
 footer.line{
     margin: 2em 0;
 }
-
+p {
+  border: 5px solid crimson;
+  padding: 20px;
+  width: 275px;
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+  -webkit-webkit: border radius 1;
+  -moz-webkit: border radius 1;
+  -ms-webkit: border radius 1;
+  -o-webkit: border radius 1;
+  webkit: border radius 10px
+}
 
  style{
   background-image: url("./assets/images/code.jpg");
