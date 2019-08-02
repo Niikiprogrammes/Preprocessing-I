@@ -4,7 +4,13 @@ nav, figure, div,
 table{
     display: block;
 }
+body{
+  font-size: 18px;
+}
 
+p{
+  text-align: inherit;
+}
 article.line{
     background-color: crimson;
     border-bottom-color: cadetblue;
@@ -15,20 +21,35 @@ footer.line{
     margin: 2em 0;
 }
 
-nav{
-    background: url(img/gradient_light.jpg) repeat-x 50% 50% lightgray;
-    padding: 0 5px;
-    position: absolute;
-    right: 0;
-    top: 4em;
 
-    border: 1px;
+ style{
+  background-image: url("./assets/images/code.jpg");
+  transform: translate3d(-3.64568px, -6.10305px, 0px);
+}
 
 
-   box-shadow:  0 1px 1px lightgrey;
-   -webkit-box-shadow: 0 1px 1px lightgrey;
-   -moz-box-shadow: 0 1px 1px lightgrey;
 
+    .hero-full-container .hero-full-wrapper .text-content {
+      vertical-align: middle;
+      display: table-cell;
+  }
+  .background-image-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+
+
+*, ::after, ::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html {
+
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
 }
 
 
@@ -44,7 +65,7 @@ nav ul li a :visited{
   color: lightgray;
   display: block;
   float: left;
-  font-size: 1.25em;
+
   font-weight: bold;
   margin: 5px 2px;
   padding: 7px 10px 4px;
@@ -73,6 +94,7 @@ nav, article, nav ul li a, figure{
 }
 table {
     border: 3px sloid black;
+    flex-direction: column;
    }
 
    @media (max-width: 600px) {
@@ -91,5 +113,4 @@ table {
       background-color: lavender;
     }
   }
-
 
