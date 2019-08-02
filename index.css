@@ -30,7 +30,7 @@ p {
   -moz-webkit: border radius 1;
   -ms-webkit: border radius 1;
   -o-webkit: border radius 1;
-  webkit: border radius 10px
+  -webkit: border radius 10px
 }
 
  style{
